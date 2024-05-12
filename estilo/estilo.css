@@ -45,7 +45,8 @@ body{
 #caixamenu{
     margin: 0px;
     padding: 5px;
-    border-radius: 10px;
+    border-bottom-left-radius: 27px;
+    border-bottom-right-radius: 27px;
     background-color: #9B5388;
 }
 .listanonum{
