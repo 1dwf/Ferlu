@@ -1,10 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 body{
     background-color: #FFE1E1;
     margin: 0px;
     padding: 0px;
+}
+.fonte_destaque{
+    color: #FFE1E1;
+    font-family:Dancing Script;
+}
+.fonte_padrao{
+    font-family: Montserrat;
+    color: #FFE1E1;
+}
+#transparencia{
+    width: 100%;
+    background-color: #801A5C;
+}
+#pexelsimg{
+    width: 100%;
 }
 .cabecalho {
     background-color: #801A5C;
@@ -67,7 +81,7 @@ body{
     color: currentColor;
 }
 .dancingFont{
-    font-family:Dancing Script ;
+    font-family:Dancing Script;
 }
 #icoinsta{
     background-color: #E9C6DB;
