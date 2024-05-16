@@ -6,8 +6,8 @@
     <link rel="stylesheet" href="estilo/produto.css">
     <script src="https://kit.fontawesome.com/a59b9b09ab.js" crossorigin="anonymous"></script>    
     <script src="js/script.js"></script>
-    <script src="js/button.js"></script>
-    <title>Produto</title>
+    <link rel="icon" href="img/Iconepng.png">
+    <title>Produtos - Ferllu Floricultura</title>
 </head>
 <body>
     <header>
@@ -20,15 +20,31 @@
                     <h4 id="ferllu">Ferllu Floricultura</h4>
                 </div>
                 <a href="https://www.instagram.com/ferllufloricultura/"><img id="icoinsta" src="img/InstaFerllu.png"></a>
-                <img id="icowhats" src="img/WhatsFerllu.png">
+                <a href="#"><img id="icowhats" src="img/WhatsFerllu.png"></a>
             </div>
-            
             <div id="caixamenu">
                 <ul class="listanonum">
                     <li class="textomenu"><a class="link" href="index.html" >Home</a></li>
                     <li class="textomenu"><a class="link" href="empresa.html" >Empresa</a></li>
-                    <li class="textomenu"><a class="link" href="produto.html" >Produtos</a></li>
-                    <li class="textomenu"><a class="link" href="contato.html" >Contatos</a></li>
+                    <li class="textoproduto">
+                        <a class="link" href="produto.html">Produtos</a>
+                        <div class="hoverprod">
+                            <a href="#orquidea"><div class="itemenu"><img class="itemenu-img" src="img/ImgExemplo.png" alt="Exemplo"></div></a>
+                            <a href="#buque"><div class="itemenu"><img class="itemenu-img" src="img/ImgExemplo.png" alt="Exemplo"></div></a>
+                            <a href="#flornat"><div class="itemenu"><img class="itemenu-img" src="img/ImgExemplo.png" alt="Exemplo"></div></a>
+                            <a href="#canecas"><div class="itemenu"><img class="itemenu-img" src="img/ImgExemplo.png" alt="Exemplo"></div></a>
+                            <a href="#chocolate"><div class="itemenu"><img class="itemenu-img" src="img/ImgExemplo.png" alt="Exemplo"></div></a>
+                            <a href="#jardinagem"><div class="itemenu"><img class="itemenu-img" src="img/ImgExemplo.png" alt="Exemplo"></div></a>
+                            <a href="#pelucias"><div class="itemenu"><img class="itemenu-img" src="img/ImgExemplo.png" alt="Exemplo"></div></a>
+                            <a href="#bebidas"><div class="itemenu"><img class="itemenu-img" src="img/ImgExemplo.png" alt="Exemplo"></div></a>
+                            <a href="#cachepos"><div class="itemenu"><img class="itemenu-img" src="img/ImgExemplo.png" alt="Exemplo"></div></a>
+                            <a href="#maternidade"><div class="itemenu"><img class="itemenu-img" src="img/ImgExemplo.png" alt="Exemplo"></div></a>
+                            <a href="#velorio"><div class="itemenu"><img class="itemenu-img" src="img/ImgExemplo.png" alt="Exemplo"></div></a>
+                            <a href="#cestas"><div class="itemenu"><img class="itemenu-img" src="img/ImgExemplo.png" alt="Exemplo"></div></a>
+                            <a href="#adubos"><div class="itemenu"><img class="itemenu-img" src="img/ImgExemplo.png" alt="Exemplo"></div></a>
+                        </div>
+                    </li>       
+                    <li class="textomenu"><a class="link" href="contato.html">Contatos</a></li>
                 </ul>
             </div>
         </nav>
@@ -43,10 +59,10 @@
 
         <div class="main-scroll-div">
             <div>
-                <button class="icones" onclick="scrollror()"> <i class="fas fa-angle-double-left"></i></button>
+                <button class="icones" onclick="scrollror()"><i class="fas fa-angle-double-left"></i></button>
             </div>
             <div class="cover">
-                <div class="scroll-images-orquideas">
+                <div id="orquidea" class="scroll-images-orquideas">
                     <div class="child"><img class="child-img" src="img/ImgExemplo.png" alt="Exemplo"></div>
                     <div class="child"><img class="child-img" src="img/ImgExemplo.png" alt="Exemplo"></div>                    
                     <div class="child"><img class="child-img" src="img/ImgExemplo.png" alt="Exemplo"></div>
@@ -70,10 +86,10 @@
 
         <div class="main-scroll-div">
             <div>
-                <button class="icones" onclick="scrollrbu()"> <i class="fas fa-angle-double-left"></i></button>
+                <button class="icones" onclick="scrollrbu()"><i class="fas fa-angle-double-left"></i></button>
             </div>
             <div class="cover">
-                <div class="scroll-images-buques">
+                <div id="buque" class="scroll-images-buques">
                     <div class="child"><img class="child-img" src="img/ImgExemplo.png" alt="Exemplo"></div>
                     <div class="child"><img class="child-img" src="img/ImgExemplo.png" alt="Exemplo"></div>
                     <div class="child"><img class="child-img" src="img/ImgExemplo.png" alt="Exemplo"></div>
@@ -97,10 +113,10 @@
 
         <div class="main-scroll-div">
             <div>
-                <button class="icones" onclick="scrollrflo()"> <i class="fas fa-angle-double-left"></i></button>
+                <button class="icones" onclick="scrollrflo()"><i class="fas fa-angle-double-left"></i></button>
             </div>
             <div class="cover">
-                <div class="scroll-images-flornaturais">
+                <div id="flornat" class="scroll-images-flornaturais">
                     <div class="child"><img class="child-img" src="img/ImgExemplo.png" alt="Exemplo"></div>
                     <div class="child"><img class="child-img" src="img/ImgExemplo.png" alt="Exemplo"></div>
                     <div class="child"><img class="child-img" src="img/ImgExemplo.png" alt="Exemplo"></div>
@@ -124,10 +140,10 @@
 
         <div class="main-scroll-div">
             <div>
-                <button class="icones" onclick="scrollrca()"> <i class="fas fa-angle-double-left"></i></button>
+                <button class="icones" onclick="scrollrca()"><i class="fas fa-angle-double-left"></i></button>
             </div>
             <div class="cover">
-                <div class="scroll-images-canecas">
+                <div id="canecas" class="scroll-images-canecas">
                     <div class="child"><img class="child-img" src="img/ImgExemplo.png" alt="Exemplo"></div>
                     <div class="child"><img class="child-img" src="img/ImgExemplo.png" alt="Exemplo"></div>
                     <div class="child"><img class="child-img" src="img/ImgExemplo.png" alt="Exemplo"></div>
@@ -151,10 +167,10 @@
 
         <div class="main-scroll-div">
             <div>
-                <button class="icones" onclick="scrollrcho()"> <i class="fas fa-angle-double-left"></i></button>
+                <button class="icones" onclick="scrollrcho()"><i class="fas fa-angle-double-left"></i></button>
             </div>
             <div class="cover">
-                <div class="scroll-images-chocolates">
+                <div id="chocolate" class="scroll-images-chocolates">
                     <div class="child"><img class="child-img" src="img/ImgExemplo.png" alt="Exemplo"></div>
                     <div class="child"><img class="child-img" src="img/ImgExemplo.png" alt="Exemplo"></div>
                     <div class="child"><img class="child-img" src="img/ImgExemplo.png" alt="Exemplo"></div>
@@ -178,10 +194,10 @@
 
         <div class="main-scroll-div">
             <div>
-                <button class="icones" onclick="scrollrjar()"> <i class="fas fa-angle-double-left"></i></button>
+                <button class="icones" onclick="scrollrjar()"><i class="fas fa-angle-double-left"></i></button>
             </div>
             <div class="cover">
-                <div class="scroll-images-jardinagem">
+                <div id="jardinagem" class="scroll-images-jardinagem">
                     <div class="child"><img class="child-img" src="img/ImgExemplo.png" alt="Exemplo"></div>
                     <div class="child"><img class="child-img" src="img/ImgExemplo.png" alt="Exemplo"></div>
                     <div class="child"><img class="child-img" src="img/ImgExemplo.png" alt="Exemplo"></div>
@@ -205,10 +221,10 @@
 
         <div class="main-scroll-div">
             <div>
-                <button class="icones" onclick="scrollrpe()"> <i class="fas fa-angle-double-left"></i></button>
+                <button class="icones" onclick="scrollrpe()"><i class="fas fa-angle-double-left"></i></button>
             </div>
             <div class="cover">
-                <div class="scroll-images-pelucias">
+                <div id="pelucias" class="scroll-images-pelucias">
                     <div class="child"><img class="child-img" src="img/ImgExemplo.png" alt="Exemplo"></div>
                     <div class="child"><img class="child-img" src="img/ImgExemplo.png" alt="Exemplo"></div>
                     <div class="child"><img class="child-img" src="img/ImgExemplo.png" alt="Exemplo"></div>
@@ -232,10 +248,10 @@
 
         <div class="main-scroll-div">
             <div>
-                <button class="icones" onclick="scrollrbe()"> <i class="fas fa-angle-double-left"></i></button>
+                <button class="icones" onclick="scrollrbe()"><i class="fas fa-angle-double-left"></i></button>
             </div>
             <div class="cover">
-                <div class="scroll-images-bebidas">
+                <div id="bebidas" class="scroll-images-bebidas">
                     <div class="child"><img class="child-img" src="img/ImgExemplo.png" alt="Exemplo"></div>
                     <div class="child"><img class="child-img" src="img/ImgExemplo.png" alt="Exemplo"></div>
                     <div class="child"><img class="child-img" src="img/ImgExemplo.png" alt="Exemplo"></div>
@@ -259,10 +275,10 @@
 
         <div class="main-scroll-div">
             <div>
-                <button class="icones" onclick="scrollrcac()"> <i class="fas fa-angle-double-left"></i></button>
+                <button class="icones" onclick="scrollrcac()"><i class="fas fa-angle-double-left"></i></button>
             </div>
             <div class="cover">
-                <div class="scroll-images-cachepos">
+                <div id="cachepos" class="scroll-images-cachepos">
                     <div class="child"><img class="child-img" src="img/ImgExemplo.png" alt="Exemplo"></div>
                     <div class="child"><img class="child-img" src="img/ImgExemplo.png" alt="Exemplo"></div>
                     <div class="child"><img class="child-img" src="img/ImgExemplo.png" alt="Exemplo"></div>
@@ -286,10 +302,10 @@
 
         <div class="main-scroll-div">
             <div>
-                <button class="icones" onclick="scrollrkit()"> <i class="fas fa-angle-double-left"></i></button>
+                <button class="icones" onclick="scrollrkit()"><i class="fas fa-angle-double-left"></i></button>
             </div>
             <div class="cover">
-                <div class="scroll-images-maternidade">
+                <div id="maternidade" class="scroll-images-maternidade">
                     <div class="child"><img class="child-img" src="img/ImgExemplo.png" alt="Exemplo"></div>
                     <div class="child"><img class="child-img" src="img/ImgExemplo.png" alt="Exemplo"></div>
                     <div class="child"><img class="child-img" src="img/ImgExemplo.png" alt="Exemplo"></div>
@@ -313,10 +329,10 @@
 
         <div class="main-scroll-div">
             <div>
-                <button class="icones" onclick="scrollrvel()"> <i class="fas fa-angle-double-left"></i></button>
+                <button class="icones" onclick="scrollrvel()"><i class="fas fa-angle-double-left"></i></button>
             </div>
             <div class="cover">
-                <div class="scroll-images-velorio">
+                <div id="velorio" class="scroll-images-velorio">
                     <div class="child"><img class="child-img" src="img/ImgExemplo.png" alt="Exemplo"></div>
                     <div class="child"><img class="child-img" src="img/ImgExemplo.png" alt="Exemplo"></div>
                     <div class="child"><img class="child-img" src="img/ImgExemplo.png" alt="Exemplo"></div>
@@ -340,10 +356,10 @@
 
         <div class="main-scroll-div">
             <div>
-                <button class="icones" onclick="scrollrces()"> <i class="fas fa-angle-double-left"></i></button>
+                <button class="icones" onclick="scrollrces()"><i class="fas fa-angle-double-left"></i></button>
             </div>
             <div class="cover">
-                <div class="scroll-images-cestas">
+                <div id="cestas" class="scroll-images-cestas">
                     <div class="child"><img class="child-img" src="img/ImgExemplo.png" alt="Exemplo"></div>
                     <div class="child"><img class="child-img" src="img/ImgExemplo.png" alt="Exemplo"></div>
                     <div class="child"><img class="child-img" src="img/ImgExemplo.png" alt="Exemplo"></div>
@@ -367,10 +383,10 @@
 
         <div class="main-scroll-div">
             <div>
-                <button class="icones" onclick="scrollradu()"> <i class="fas fa-angle-double-left"></i></button>
+                <button class="icones" onclick="scrollradu()"><i class="fas fa-angle-double-left"></i></button>
             </div>
             <div class="cover">
-                <div class="scroll-images-adubos">
+                <div id="adubos" class="scroll-images-adubos">
                     <div class="child"><img class="child-img" src="img/ImgExemplo.png" alt="Exemplo"></div>
                     <div class="child"><img class="child-img" src="img/ImgExemplo.png" alt="Exemplo"></div>
                     <div class="child"><img class="child-img" src="img/ImgExemplo.png" alt="Exemplo"></div>
