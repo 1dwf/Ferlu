@@ -384,6 +384,7 @@ h2{
     margin: 0;
     transition: transform .2s;
     z-index: 1000;
+    text-align: center;
     
 }
 .hoverprod1, .hoverprod2, .hoverprod3 {
@@ -393,6 +394,7 @@ h2{
     width: 100%; 
     margin-top: 10px;
     z-index: 1001;
+    text-align: center;
 }
 
 .itemenu {
@@ -409,7 +411,6 @@ h2{
     align-items: center;
     position: relative;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
-    
 }
 
 .ulmenu {
@@ -487,5 +488,38 @@ header{
     padding-top: 105px;
 }
 #buque{
+    padding-top: 105px;
+}
+#flornat{
+    padding-top: 105px;
+}
+#canecas{  
+    padding-top: 105px;
+}
+#chocolate{
+    padding-top: 105px;
+}
+#jardinagem{
+    padding-top: 105px;
+}
+#pelucias{
+    padding-top: 105px;
+}
+#bebidas{
+    padding-top: 105px;
+}
+#cachepos{
+    padding-top: 105px;
+}
+#maternidade{
+    padding-top: 105px;
+}
+#velorio{
+    padding-top: 105px;
+}
+#cestas{
+    padding-top: 105px;
+}
+#adubos{
     padding-top: 105px;
 }
