@@ -220,3 +220,6 @@ body{
     color: #FFE1E1;
     font-weight: lighter;
 }
+.fixacabeca{
+    position: fixed;
+}
