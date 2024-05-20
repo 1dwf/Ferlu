@@ -127,7 +127,6 @@ body{
 }
 
 .cabecalho {
-    position: fixed;
     background-color: #801A5C;
     height: 90px;
     display: flex;
@@ -164,7 +163,6 @@ body{
     vertical-align: middle;
 }
 #caixamenu{
-    position: fixed;
     margin: 0px;
     padding: 5px;
     background-color: #9B5388;
