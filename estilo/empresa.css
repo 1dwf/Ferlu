@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+body{
+    background-color: #FFE1E1;
+    margin: 0px;
+    padding: 0px;
+}
+.fonte_destaque{
+    color: #FFE1E1;
+    font-family:Dancing Script;
+}
+.fonte_padrao{
+    font-family: Montserrat;
+    color: #FFE1E1;
+}
+#transparencia{
+    width: 100%;
+    background-color: #801A5C;
+}
+#pexelsimg{
+    width: 100%;
+}
+.cabecalho {
+    background-color: #801A5C;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+#logo{
+    text-align: start;
+}
+#nomemarca {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+#ferllu {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-size: 50px;
+    font-family: 'Dancing Script', cursive;
+    margin: 0;
+    padding: 0;
+    color: #FFE1E1;
+    display: inline-block;
+    vertical-align: middle;
+}
+#nomemarca{
+    text-align: center;
+}
+
+#logoferluimg {
+    height: 90px;
+    width: 90px;
+    vertical-align: middle;
+}
+#caixamenu{
+    margin: 0px;
+    padding: 5px;
+    border-bottom-left-radius: 27px;
+    border-bottom-right-radius: 27px;
+    background-color: #9B5388;
+}
+.listanonum{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    list-style-type: none;
+}
+.textomenu{
+    margin: 50px;
+    color: #FFE1E1;
+    font-family: Montserrat;
+    display:inline;
+}
+.link{
+    font-size: 1.7cap;
+    text-decoration: none;
+    color: currentColor;
+}
+.dancingFont{
+    font-family:Dancing Script;
+    font-size: 50px;
+    text-align: center;
+}
+#icoinsta{
+    background-color: #E9C6DB;
+    border-radius: 20px;
+    margin: 8px;
+    width: 80px;
+    height: 80px;
+}
+#icowhats{
+    background-color: #E9C6DB;
+    border-radius: 20px;
+    margin: 2px;
+    width: 80px;
+    height: 80px;
+}
+#floricultura{
+    font-family: Montserrat;
+}
+.balao-info{
+    background-color: white;
+    width: 40%;
+    height: 40%;
+    text-align: center;
+    margin-bottom: 5px;
+    padding: 40px;
+    align-items: center;
+    justify-content: center;
+    display:flex;
+    margin:auto;
+    margin-top: 6%;
+    font-size: 30px;
+    border-radius: 90px;
+}
+
+.info{
+    color:#A81971;
+    font-weight: 1;
+}
+
+.texto-convite{
+    width: 40%;
+    height: 40%;
+    text-align: center;
+    margin-bottom: 0;
+    padding: 60px;
+    align-items: center;
+    justify-content: center;
+    display:flex;
+    margin:auto;
+    margin-top: 8%;
+    font-size: 40px;
+    border-radius: 90px;
+}
+.convite{
+    color:black;
+    font-weight: 1;
+}
+.mapa{
+    width: 40%;
+    height: 20%;
+    text-align: center;
+    margin-bottom: 0;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    display:flex;
+    margin:auto;
+    border-radius: 50%;
+}
+.orcament{
+    width: 40%;
+    height: 40%;
+    text-align: center;
+    margin-bottom: 0;
+    padding: 60px;
+    align-items: center;
+    justify-content: center;
+    display:flex;
+    margin:auto;
+    margin-top: 6%;
+    font-size: 35px;
+    border-radius: 90px;
+}
+.orcamento{
+    color:black;
+    font-weight: 1;
+}
+.balao-contato{
+    background-color: white;
+    width: 40%;
+    height: 40%;
+    text-align: center;
+    margin-bottom: 0;
+    padding: 60px;
+    align-items: center;
+    justify-content: center;
+    display:flex;
+    margin:auto;
+    margin-bottom: 15%;
+    font-size: 40px;
+    border-radius: 90px;
+}
+.contato a{
+    color:black;
+    font-weight: 1;
+    text-decoration: none;
+}
+
+.rodape{
+    background-color: #801A5C;
+    text-align: center;
+    margin-bottom: 0;
+    padding: 5px;
+    margin-top: 30px;
+}
+.ferlluFlo{
+    font-size: 40px;
+    font-family: Dancing Script;
+}
+h2{
+    color: #FFE1E1;
+    font-weight: lighter;
+}
