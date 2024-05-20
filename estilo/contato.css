@@ -218,3 +218,17 @@ input[type="submit"] {
 
    
   }
+
+  .mapa{
+    z-index: 3;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    touch-action: pan-x pan-y; 
+}
+ 
+.local{
+    text-align:center;
+    }
