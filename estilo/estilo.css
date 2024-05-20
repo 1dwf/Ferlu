@@ -6,9 +6,6 @@
     left: 36%;
     text-shadow: 3px 5px 9px rgb(0,0, 0);
 }
-.fixacabeca{
-    position: fixed;
-}
 .imgquadrada{
     padding: 0px;
     margin: 0px;
@@ -130,6 +127,7 @@ body{
 }
 
 .cabecalho {
+    position: fixed;
     background-color: #801A5C;
     height: 90px;
     display: flex;
@@ -166,6 +164,7 @@ body{
     vertical-align: middle;
 }
 #caixamenu{
+    position: fixed;
     margin: 0px;
     padding: 5px;
     background-color: #9B5388;
