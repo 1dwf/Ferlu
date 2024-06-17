@@ -1,10 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 .textoimg{
+    padding-top: 123px;
     position: absolute;
-    top: 0%;
-    left: 36%;
+    top: 50%; /* Alinha verticalmente no meio */
+    left: 50%; /* Alinha horizontalmente no meio */
+    transform: translate(-50%, -50%); /* Move o texto para o centro */
+    color: white; /* Define a cor do texto */
+    text-align: center; /* Alinha o texto ao centro */
+    border-radius: 10px; /* Adiciona bordas arredondadas */
     text-shadow: 3px 5px 9px rgb(0,0, 0);
+}
+header{
+    position: fixed;
+    width: 100%;
+    z-index: 20000;
 }
 .imgquadrada{
     padding: 0px;
@@ -74,11 +84,14 @@
     list-style: none;
 }
 .imgdoindex{
-    display: inline-block;
+    padding-top: 123px;
     position: relative;
+    display: inline-block;
 }
 #flordoindex{
+    display: block;
     width: 100%;
+    height: auto;
 }
 body{
     background-color: #FFE1E1;
@@ -93,9 +106,10 @@ body{
     text-align: center;
     padding: 0px;
     margin: 0px;
-    color: #E9C6DB;
+    color: #FFFFFF;
     font-family: Dancing Script, cursive;
-    font-size: 110px;
+    font-size: 50px;
+    max-width: 600px;
 }
 .fonte_destaque{
     text-align: center;
@@ -156,7 +170,6 @@ body{
 #nomemarca{
     text-align: center;
 }
-
 #logoferluimg {
     height: 90px;
     width: 90px;
@@ -166,6 +179,7 @@ body{
     margin: 0px;
     padding: 5px;
     background-color: #9B5388;
+    box-shadow: 0 7px 9px rgba(0, 0, 0, 0.5);
 }
 .listanonum{
     margin: 0px;
@@ -222,4 +236,129 @@ body{
 }
 .fixacabeca{
     position: fixed;
+}
+#alugue{
+    color: #801A5C;
+}
+#compre{
+    color: #A81971;
+}
+#ambiente{
+    color: #E22C9C;
+}
+#subimagem{
+    text-align: center;
+    font-weight: 450;
+    margin: 0;
+}
+#divsub{
+    margin: auto;
+    align-content: center;    
+    background-color: #FFFFFF;
+    max-width: 800px;
+    height: 150px;
+    border-radius:10px;
+    border: #380926 solid 3px;
+    font-size: 24px;
+    font-family: Montserrat;
+}
+#navdivsub{
+    margin: 40px;
+}
+.main-scroll-div {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}.cover{
+    position: relative;
+    width: 90%;
+    height: 50%;
+}
+
+.child {
+    min-width: 230px;
+    height: 230px;
+    margin: 1px 10px;
+    cursor: pointer;
+    border: 2px solid #A81971;
+    overflow: hidden;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+.scroll-images::-webkit-scrollbar{
+    -webkit-appearance: none;
+}
+.child img {
+    max-width: 100%; 
+    max-height: 100%;
+}
+.icones{
+    color: black;
+    background-color: #380926;
+    font-size: 50px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    height: 236px;
+    width: 60px;
+    line-height: 236px; 
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px ;
+}
+.icondi{
+    color: black;
+    background-color: #380926;
+    font-size: 50px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    height: 236px;
+    width: 60px;
+    line-height: 236px; 
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.icones :hover{
+    color: gray;
+}
+.icondi :hover{
+    color: gray;
+}
+.scroll-images-orquideas{
+    width: 100%;
+    height:auto;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    scroll-behavior: smooth;
+}
+
+.scroll-images-orquideas:hover>:not(:hover){
+    opacity: 0.2;
+    transition: opacity 1s ease;
+}
+#conhecaprod{
+    margin: auto;
+    text-align: center;
+    color: #A81971;
+    font-family: Montserrat;
+    margin-bottom: 90px;
+    margin-top: 160px;
+}
+#conheca{
+    font-size: 60px;
+    font-weight: 350;
+}
+#produtos{
+    font-size: 80px;
+    font-weight: 450;
 }

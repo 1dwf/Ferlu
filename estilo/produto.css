@@ -425,7 +425,7 @@ h2{
     max-height: 100%;
 }
 .botaowhats{
-    background-color:#25D366;
+    background-color:#380926;
     color: white;
     text-align: center;
     width: 250px;
@@ -440,7 +440,7 @@ h2{
     margin-top: 25px;
 }
 .botaowhats:hover{
-    color: black;
+    background-color: #A81971;
     border: white solid 2px;
 }
 .imgal{
@@ -448,8 +448,8 @@ h2{
     width: 150px;
     height: 150px;
     margin: 10px;
-    border: 2px solid rgb(155, 83, 136);
-    background-color: #BBB9B9;
+    border: 2px solid #A81971;
+    background-color: #FFFFFF;
     border-radius: 100px;
     display: flex; 
     justify-content: center;
@@ -468,8 +468,8 @@ h2{
 .tipogal{
     text-align: center;
     font-family: Dancing Script;
-    font-size: 45px;
-    color: #801A5C;
+    font-size: 70px;
+    color: #A81971;
     font-weight: 800;
     text-decoration: underline 2px;
     padding-top: 140px;
