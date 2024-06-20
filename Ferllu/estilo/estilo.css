@@ -1,0 +1,377 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+.textoimg{
+    padding-top: 123px;
+    position: absolute;
+    top: 50%; /* Alinha verticalmente no meio */
+    left: 50%; /* Alinha horizontalmente no meio */
+    transform: translate(-50%, -50%); /* Move o texto para o centro */
+    color: white; /* Define a cor do texto */
+    text-align: center; /* Alinha o texto ao centro */
+    border-radius: 10px; /* Adiciona bordas arredondadas */
+    text-shadow: 3px 5px 9px rgb(0,0, 0);
+}
+header{
+    position: fixed;
+    width: 100%;
+    z-index: 20000;
+}
+.imgquadrada{
+    padding: 0px;
+    margin: 0px;
+    border-radius: 5px;
+    width: 100%;
+    height: 80%;
+}
+#prod{
+    border-radius: 5px;
+    margin: 100px;
+    padding: 50px;
+    background-color: #801a5c44;
+    text-align: center;
+}
+.textolimpo{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.493);
+    padding: 0px;
+    margin: 0px;
+    color: #801A5C;
+    font-family: montserrat;
+}
+.box{
+    
+    font-size: 30px;
+    background-color: #FFE1E1;
+    text-align: center;
+    margin: 30px;
+    padding: 10px;
+    display: inline-block;
+    width: 300px;
+    height: 350px;
+    
+    
+    border-radius: 10px;
+}
+#pensaorquidea{
+    font-family: Dancing Script;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    font-size: 80px;
+    color: #801A5C;
+}
+#economizaflor{
+    font-family: Montserrat;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    color: #801A5C;
+    font-size: 29px;
+}
+#aluguel{
+    font-size: 55px;
+    text-align: center;
+    border-radius: 9px;
+    background-color: #801a5cae;
+    font-family: Dancing Script;
+    margin: 100px;
+    padding: 0px;
+    color: #FFE1E1;
+    
+}
+#item{
+    
+    text-align: center;
+    list-style: none;
+}
+.imgdoindex{
+    padding-top: 123px;
+    position: relative;
+    display: inline-block;
+}
+#flordoindex{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+body{
+    background-color: #FFE1E1;
+    margin: 0px;
+    padding: 0px;
+}
+.imgtras{
+    display: inline-block;
+    position: relative;
+}
+.fonte_destaque2{
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    color: #FFFFFF;
+    font-family: Dancing Script, cursive;
+    font-size: 50px;
+    max-width: 600px;
+}
+.fonte_destaque{
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    color: #801A5C;
+    font-family: Dancing Script, cursive;
+    font-size: 110px;
+}
+.fonte_padrao2{
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    font-family: Montserrat;
+    color: #E9C6DB;
+    font-size: 3cap;
+}
+.fonte_padrao{
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    font-family: Montserrat;
+    color: #801A5C;
+    font-size: 20px;
+}
+#transparencia{
+    width: 100%;
+    background-color: #801A5C;
+}
+
+.cabecalho {
+    background-color: #801A5C;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+#logo{
+    text-align: start;
+}
+#nomemarca {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+#ferllu {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-size: 50px;
+    font-family: 'Dancing Script', cursive;
+    margin: 0;
+    padding: 0;
+    color: #FFE1E1;
+    display: inline-block;
+    vertical-align: middle;
+}
+#nomemarca{
+    text-align: center;
+}
+#logoferluimg {
+    height: 90px;
+    width: 90px;
+    vertical-align: middle;
+}
+#caixamenu{
+    margin: 0px;
+    padding: 5px;
+    background-color: #9B5388;
+    box-shadow: 0 7px 9px rgba(0, 0, 0, 0.5);
+}
+.listanonum{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    list-style-type: none;
+}
+.textomenu{
+    margin: 50px;
+    color: #FFE1E1;
+    font-family: Montserrat;
+    display:inline;
+}
+.link{
+    font-size: 1.7cap;
+    text-decoration: none;
+    color: currentColor;
+}
+.dancingFont{
+    font-family:Dancing Script;
+}
+#icoinsta{
+    background-color: #E9C6DB;
+    border-radius: 20px;
+    margin: 8px;
+    width: 80px;
+    height: 80px;
+}
+#icowhats{
+    background-color: #E9C6DB;
+    border-radius: 20px;
+    margin: 2px;
+    width: 80px;
+    height: 80px;
+}
+#floricultura{
+    font-family: Montserrat;
+}
+.rodape{
+    background-color: #801A5C;
+    text-align: center;
+    margin-bottom: 0;
+    padding: 5px;
+    margin-top: 30px;
+}
+.ferlluFlo{
+    color: #FFE1E1;
+    font-size: 60px;
+    font-family: Dancing Script;
+}
+.rodapetext{
+    color: #FFE1E1;
+    font-weight: lighter;
+}
+.fixacabeca{
+    position: fixed;
+}
+#alugue{
+    color: #801A5C;
+}
+#compre{
+    color: #A81971;
+}
+#ambiente{
+    color: #E22C9C;
+}
+#subimagem{
+    text-align: center;
+    font-weight: 450;
+    margin: 0;
+}
+#divsub{
+    margin: auto;
+    align-content: center;    
+    background-color: #FFFFFF;
+    max-width: 800px;
+    height: 150px;
+    border-radius:10px;
+    border: #380926 solid 3px;
+    font-size: 24px;
+    font-family: Montserrat;
+}
+#navdivsub{
+    margin: 40px;
+}
+.main-scroll-div {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}.cover{
+    position: relative;
+    width: 90%;
+    height: 50%;
+}
+
+.child {
+    min-width: 230px;
+    height: 230px;
+    margin: 1px 10px;
+    cursor: pointer;
+    border: 2px solid #A81971;
+    overflow: hidden;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+.scroll-images::-webkit-scrollbar{
+    -webkit-appearance: none;
+}
+.child img {
+    max-width: 100%; 
+    max-height: 100%;
+}
+.icones{
+    color: black;
+    background-color: #380926;
+    font-size: 50px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    height: 236px;
+    width: 60px;
+    line-height: 236px; 
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px ;
+}
+.icondi{
+    color: black;
+    background-color: #380926;
+    font-size: 50px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    height: 236px;
+    width: 60px;
+    line-height: 236px; 
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.icones :hover{
+    color: gray;
+}
+.icondi :hover{
+    color: gray;
+}
+.scroll-images-orquideas{
+    width: 100%;
+    height:auto;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    scroll-behavior: smooth;
+}
+
+.scroll-images-orquideas:hover>:not(:hover){
+    opacity: 0.2;
+    transition: opacity 1s ease;
+}
+#conhecaprod{
+    margin: auto;
+    text-align: center;
+    color: #A81971;
+    font-family: Montserrat;
+    margin-bottom: 90px;
+    margin-top: 160px;
+}
+#conheca{
+    font-size: 60px;
+    font-weight: 350;
+}
+#produtos{
+    font-size: 80px;
+    font-weight: 450;
+}
+.mapa{
+    width: 600px;
+    height: 400px;
+    text-align: center;
+    margin-bottom: 0;
+    padding: 70px;
+    padding-bottom: 70px;
+    align-items: center;
+    justify-content: center;
+    display:flex;
+    margin:auto;
+    border-radius: 100px;
+}
