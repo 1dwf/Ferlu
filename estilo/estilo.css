@@ -362,3 +362,16 @@ body{
     font-size: 80px;
     font-weight: 450;
 }
+.mapa{
+    width: 600px;
+    height: 400px;
+    text-align: center;
+    margin-bottom: 0;
+    padding: 70px;
+    padding-bottom: 70px;
+    align-items: center;
+    justify-content: center;
+    display:flex;
+    margin:auto;
+    border-radius: 100px;
+}
