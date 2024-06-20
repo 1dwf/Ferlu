@@ -99,97 +99,108 @@ body{
     width: 80px;
     height: 80px;
 }
-#floricultura{
-    font-family: Montserrat;
-}
-.balao-info{
-    background-color: white;
-    width: 40%;
-    height: 40%;
+
+h1{
     text-align: center;
-    margin-bottom: 5px;
-    padding: 40px;
-    align-items: center;
-    justify-content: center;
-    display:flex;
-    margin:auto;
-    margin-top: 6%;
+    font-family:  Dancing Script, cursive;
     font-size: 30px;
-    border-radius: 90px;
 }
 
-.info{
-    color:#A81971;
-    font-weight: 1;
+.container {
+    text-align: center; 
+    
 }
 
-.texto-convite{
-    width: 40%;
-    height: 40%;
-    text-align: center;
-    margin-bottom: 0;
-    padding: 60px;
-    align-items: center;
+.boxsandra{
+display: inline-flex; 
+flex-direction: column; 
+justify-content: center; 
+align-items: center;
+width: 180px;
+height: 180px;
+ background-color: #f0f0f0;
+margin: 20px; 
+border-radius: 70%; 
+border: 2px solid black;
+
+}
+.boxandrea{
+    display: inline-flex; 
+    flex-direction: column; 
     justify-content: center;
-    display:flex;
-    margin:auto;
-    margin-top: 8%;
-    font-size: 40px;
-    border-radius: 90px;
-}
-.convite{
-    color:black;
-    font-weight: 1;
-}
-.mapa{
-    width: 40%;
-    height: 20%;
-    text-align: center;
-    margin-bottom: 0;
-    padding: 20px;
     align-items: center;
-    justify-content: center;
-    display:flex;
-    margin:auto;
-    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+     background-color: #f0f0f0;
+    margin: 20px;
+    border-radius: 70%; 
+    border: 2px solid black;
 }
-.orcament{
-    width: 40%;
-    height: 40%;
-    text-align: center;
-    margin-bottom: 0;
-    padding: 60px;
+
+.boxfotoempresa{
+    display: inline-flex; 
+    flex-direction: column; 
+    justify-content: center; 
     align-items: center;
-    justify-content: center;
-    display:flex;
-    margin:auto;
-    margin-top: 6%;
-    font-size: 35px;
-    border-radius: 90px;
+    width: 180px;
+    height: 180px;
+     background-color: #f0f0f0;
+    margin: 20px; 
+    border-radius: 70%; 
+    border: 2px solid black;  
 }
-.orcamento{
-    color:black;
-    font-weight: 1;
+.boxnossamissao{
+    display: inline-flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    width: 400px;
+    height: 200px;
+    border-radius: 20px;
+     background-color: #f0f0f0;
+    margin: 10px; 
 }
-.balao-contato{
-    background-color: white;
-    width: 40%;
-    height: 40%;
+
+.boxnossahistoria{
+    display: inline-flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    width: 800px;
+    height: 400px;
+    border-radius: 20px;
+     background-color: #f0f0f0;
+    margin: 10px; 
     text-align: center;
-    margin-bottom: 0;
-    padding: 60px;
-    align-items: center;
-    justify-content: center;
-    display:flex;
-    margin:auto;
-    margin-bottom: 15%;
-    font-size: 40px;
-    border-radius: 90px;
 }
-.contato a{
-    color:black;
-    font-weight: 1;
-    text-decoration: none;
+.tipogal{
+    text-align: center;
+    font-family: Dancing Script;
+    font-size: 70px;
+    color: #A81971;
+    font-weight: 800;
+    text-decoration: underline 2px;
+    padding-top: 140px;
+    margin: 0;
+}
+
+.imgal{
+    min-width: 150px;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    border: 2px solid #A81971;
+    background-color: #FFFFFF;
+    border-radius: 100px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+}
+.compgal{
+    display: flex;
+    justify-content: center;
 }
 
 .rodape{
