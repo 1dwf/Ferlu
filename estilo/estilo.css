@@ -1,20 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 .textoimg{
-    padding-top:4cap;
+    padding-top:85px;
     position: absolute;
-    top: 50%; /* Alinha verticalmente no meio */
-    left: 50%; /* Alinha horizontalmente no meio */
-    transform: translate(-50%, -50%); /* Move o texto para o centro */
-    color: white; /* Define a cor do texto */
-    text-align: center; /* Alinha o texto ao centro */
-    border-radius: 10px; /* Adiciona bordas arredondadas */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center; 
+    border-radius: 10px;
     text-shadow: 3px 5px 9px rgb(0,0, 0);
 }
 header{
     position: fixed;
     width: 100%;
     z-index: 20000;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5)
 }
 .imgquadrada{
     padding: 0px;
@@ -84,7 +85,7 @@ header{
     list-style: none;
 }
 .imgdoindex{
-    padding-top: 8cap;
+    padding-top: 90px;
     position: relative;
     display: inline-block;
 }
@@ -159,11 +160,11 @@ body{
 #ferllu {
     margin-block-start: 0;
     margin-block-end: 0;
-    font-size: 50px;
+    font-size: 55px;
     font-family: 'Dancing Script', cursive;
     margin: 0;
     padding: 0;
-    color: #FFE1E1;
+    color: #F8F4F7;
     display: inline-block;
     vertical-align: middle;
 }
@@ -218,13 +219,7 @@ body{
 #floricultura{
     font-family: Montserrat;
 }
-.rodape{
-    background-color: #801A5C;
-    text-align: center;
-    margin-bottom: 0;
-    padding: 5px;
-    margin-top: 30px;
-}
+
 .ferlluFlo{
     color: #FFE1E1;
     font-size: 60px;
@@ -263,7 +258,7 @@ body{
     font-family: Montserrat;
 }
 #navdivsub{
-    margin: 40px;
+    margin: 70px;
 }
 .main-scroll-div {
     width: 90%;
@@ -352,7 +347,7 @@ body{
     color: #A81971;
     font-family: Montserrat;
     margin-bottom: 90px;
-    margin-top: 160px;
+    margin-top: 90px;
 }
 #conheca{
     font-size: 60px;
@@ -446,46 +441,70 @@ padding-top: 100px;
 
 }
 
-.listarodape{
-    padding: 0px;
-    margin: 0px;
-    text-align: center;
-    font-family: Montserrat;
-    list-style: none;
-}
-.rodape{
-    padding: 0px;
-    margin: 0px;
-    list-style: none;
-}
-.linkrodape{
-    padding: 10px;
-    margin: 10px;
-    text-decoration:none; 
-    color: #E9C6DB;
-    font-size: 20px;
-}
+
 a{
     text-decoration: none;
 }
-.bola{
-    display: inline-block;
+
+.rodape {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #801A5C;
+    padding: 20px;
+    color: white;
 }
-#logoferluimgrodape{
-    padding: 0px;
-    padding-inline-start: 0px;
-    margin: 0px;
-    height: 120px;
-    width: 120px;
+.rodape p{
+    font-family: Montserrat;
+    margin: 0;
+    max-width: 145px;
+    text-align: center;
+    color: #F8F4F7;
+    font-size: 19px;
 }
-footer{
-    padding: 0px;
-    margin: 0px;
+.redesociais{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 270px;
 }
-#imgrodape{
-    width: 50px;
-    height: 50px;
+.redesociais p:hover{
+    color: #000000;
+    font-weight: 400;
+    text-decoration: underline;
 }
-.ajeitaul{
-    padding: 0px 0px 0px 0px;
+.contatoinfo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 270px;
 }
+
+.redesociais div, .contatoinfo div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.redesociais img, .contatoinfo img{
+    width: 45px;
+    height: 45px;
+    margin-right: 10px;
+    background-color: #F8F4F7;
+    border-radius: 10px;
+}
+
+.logodofooter{
+    display: flex;
+    justify-content: center;
+    flex: 1;
+
+}
+
+.logodofooter img {
+    width: 100px;
+    height: auto;
+}
+
+
+
