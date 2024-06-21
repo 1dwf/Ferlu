@@ -148,9 +148,6 @@ body{
     align-items: center;
     padding: 0;
 }
-#logo{
-    text-align: start;
-}
 #nomemarca {
     flex-grow: 1;
     display: flex;
