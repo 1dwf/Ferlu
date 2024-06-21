@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 .textoimg{
-    padding-top: 123px;
+    padding-top:4cap;
     position: absolute;
     top: 50%; /* Alinha verticalmente no meio */
     left: 50%; /* Alinha horizontalmente no meio */
@@ -84,7 +84,7 @@ header{
     list-style: none;
 }
 .imgdoindex{
-    padding-top: 123px;
+    padding-top: 8cap;
     position: relative;
     display: inline-block;
 }
@@ -446,4 +446,39 @@ padding-top: 100px;
 
 }
 
+.listarodape{
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    font-family: Montserrat;
+    list-style: none;
+}
+.rodape{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+.linkrodape{
+    padding: 0px;
+    margin: 0px;
+    text-decoration:none; 
+    color: #E9C6DB;
+    font-size: 20px;
+}
 
+.bola{
+    padding: 40px;
+    margin: 0px;
+    display: inline-block;
+}
+#logoferluimgrodape{
+    padding: 0px;
+    margin: 0px;
+    height: 120px;
+    width: 120px;
+    vertical-align: middle;
+}
+footer{
+    padding: 0px;
+    margin: 0px;
+}
