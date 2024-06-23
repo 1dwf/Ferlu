@@ -98,7 +98,6 @@ h2{
 }
 .botaowhats{
     background-color:#380926;
-    color: white;
     text-align: center;
     width: 250px;
     border-radius: 50px;
@@ -110,45 +109,16 @@ h2{
     text-decoration: none;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
     margin-top: 20px;
-    margin-bottom: 50px; 
+    margin-bottom: 50px;
+}
+.botaowhats h3{
+    color: #FFFFFF;
 }
 .botaowhats:hover{
     background-color: #A81971;
     border: white solid 2px;
 }
-.imgal{
-    min-width: 150px;
-    width: 200px;
-    height: 200px;
-    margin: 10px;
-    border: 2px solid #A81971;
-    background-color: #FFFFFF;
-    border-radius: 15px;
-    display: flex; 
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
-}
-.gal-img{
-    max-width: 100%; 
-    max-height: 100%;
-    z-index: 1;
-}
-.compgal{
-    display: flex;
-    justify-content: center;
-}
-.tipogal{
-    text-align: center;
-    font-family: Dancing Script;
-    font-size: 70px;
-    color: #A81971;
-    font-weight: 800;
-    text-decoration: underline 2px;
-    padding-top: 140px;
-    margin: 0;
-}
+
 html{
     scroll-behavior: smooth;
 
@@ -261,6 +231,42 @@ a{
     width: 100px;
     height: auto;
 }
+.imgal{
+    min-width: 150px;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: 2px solid #A81971;
+    background-color: #FFFFFF;
+    border-radius: 100px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+}
+.gal-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+}
 
+.compgal{
+    display: flex;
+    justify-content: center;
+}
+.tipogal{
+    text-align: center;
+    font-family: Dancing Script;
+    font-size: 70px;
+    color: #A81971;
+    font-weight: 800;
+    text-decoration: underline 2px;
+    padding-top: 140px;
+    margin: 0;
+}
 
 
