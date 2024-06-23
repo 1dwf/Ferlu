@@ -301,14 +301,15 @@ body{
 
 .boxTextoSOBRE {
     width: 400px;
-    height: 140px;
+    height: 280px;
+    padding: 10px;
     background-color: #FFFFFF;
     border: #A81971 solid 3px;
     margin: 0;
     border-radius: 20px;
-    padding: 70px;
-    font-size: 25px;
+    font-size: 20px;
     font-family: Montserrat;
+    text-align: center;
 }
 
 .SobreTitulox {
