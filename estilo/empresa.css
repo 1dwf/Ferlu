@@ -154,7 +154,7 @@ border: 2px solid #A81971;
     width: 180px;
     height: 180px;
     margin: 20px;
-    border-radius: 70%; 
+    border-radius: 100px; 
     border: 5px solid #a81971;
 }
 .boxnossamissao{
@@ -221,35 +221,33 @@ border: 2px solid #A81971;
     margin-top: 0%;
 
 }
-.tipogal{
-    text-align: center;
-    font-family: Dancing Script;
-    font-size: 70px;
-    color: #A81971;
-    font-weight: 800;
-    text-decoration: underline 2px;
-    padding-top: 140px;
-    margin: 0;
+
+.exemplo {
+    text-align: center; /* Centralizar as divs dentro do container*/
 }
 
-.imgal{
-    min-width: 150px;
-    width: 150px;
-    height: 150px;
-    margin: 10px;
-    border: 2px solid #A81971;
-    background-color: #FFFFFF;
-    border-radius: 100px;
-    display: flex; 
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+.box {
+display: inline-flex; /* Mudança para flex */
+flex-direction: column; /* Colocar o texto abaixo do ícone*/
+justify-content: center; /* Centralizar o conteúdo horizontalmente*/ 
+align-items: center; /* Centralizar o contedo verticalmente*/
+width: 180px;
+height: 180px;
+ background-color: #f0f0f0;
+margin: 10px; /*Espaçamento entre as divs */
+border-radius: 100px; 
+border: 5px solid #a81971;
+
 }
-.compgal{
-    display: flex;
-    justify-content: center;
+
+.box i{
+font-size: 24px; /* Tamanho do ícone */
+font-size: 24 px; 
+margin-bottom: 19px; /* Espaçamento entre o ícone e o texto*/
+border-radius: 100px; 
+border: 5px solid #a81971;
 }
+
 .ferlluFlo{
     font-size: 40px;
     font-family: Dancing Script;
