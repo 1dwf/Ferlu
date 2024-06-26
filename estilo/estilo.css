@@ -38,7 +38,7 @@ header{
     height: auto;
 }
 body{
-    background-color: #FFE1E1;
+    background-color: #FFEFFB;
     margin: 0px;
     padding: 0px;
 }
@@ -214,10 +214,10 @@ body{
 }
 
 .icones :hover{
-    color: gray;
+    color: #FFEFFB;
 }
 .icondi :hover{
-    color: gray;
+    color: #FFEFFB;
 }
 .scroll-images-orquideas{
     width: 100%;
@@ -413,6 +413,7 @@ a{
 #quemsomos:hover{
     background-color: #E22C9C;
     border: #380926 solid 3px;
+    text-decoration: underline;
 }
 
 .child-img {
